@@ -10,6 +10,7 @@ import { registerLocaleData } from '@angular/common';
 import localeEsAr from '@angular/common/locales/es-AR';
 import { CapitalizadoPipe } from './pipes/capitalizado.pipe';
 import { DomSeguroPipe } from './pipes/dom-seguro.pipe';
+import { PasswordPipe } from './pipes/password.pipe';
 
 registerLocaleData(localeEsAr, 'es-AR');
 
@@ -19,7 +20,8 @@ registerLocaleData(localeEsAr, 'es-AR');
   declarations: [
     AppComponent,
     CapitalizadoPipe,
-    DomSeguroPipe
+    DomSeguroPipe,
+    PasswordPipe
   ],
   imports: [
     BrowserModule
